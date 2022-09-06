@@ -1,0 +1,29 @@
+.btn {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(250, 208, 174);
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  overflow: hidden;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.btn:hover:first-child {
+  background: rgb(0, 128, 0);
+}
+
+.btn:hover:nth-child(2n) {
+  background: rgb(255, 255, 0);
+}
+
+.btn:hover:last-child {
+  background: rgb(255, 0, 0);
+}
